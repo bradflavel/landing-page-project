@@ -68,12 +68,20 @@ li {
     margin-top: 10px;
 }
 
-.first-title .second-title {
-    font-size: 48px;
-    font-weight: bold;
+.first-title, .second-title {
+    font-weight: 800;
     padding: 0px; 
     margin: 0px;
 }
+
+.first-title {
+    font-size: 48px;
+}
+
+.second-title {
+    font-size: 36px;
+}
+
 
 .first-subtitle {
     font-size: 24px;
