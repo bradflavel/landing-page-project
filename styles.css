@@ -12,7 +12,7 @@ html {
     
 }
 
-.header, .content-one, .content-two, .content-three {
+.header, .content-one, .content-two, .content-three, .content-four, .bottom {
     padding: 50px 15% 50px 15%;
 }
 
@@ -80,6 +80,7 @@ li {
 
 .second-title {
     font-size: 36px;
+    text-align: center;
 }
 
 
@@ -122,9 +123,28 @@ li {
 
 .content-two {
     background-color: white;
-    height: 200px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.media * {
+    padding: 20px 0px;
+    text-align: center;
+
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
 p.quote, p.author {
@@ -149,3 +169,43 @@ p.author {
     background-color: rgba(255, 255, 255, 0.808);
     height: 200px;
 }
+
+.content-four {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.final-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(61, 121, 212);
+    height: 100px;
+    width: 100%;
+    padding:50px 100px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.final-container * {
+    color: white;
+}
+
+.sign-up {
+    background-color: #ffffff; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .bottom {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+  }
